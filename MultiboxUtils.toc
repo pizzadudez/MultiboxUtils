@@ -1,0 +1,11 @@
+## Interface: 80100
+## Title: MultiboxUtils
+## SavedVariables: MultiboxUtilsDB
+
+Libs\LibStub\LibStub.lua
+Libs\StdUi\StdUi.xml
+
+invite.lua
+team.lua
+MultiboxUtils.lua
+
