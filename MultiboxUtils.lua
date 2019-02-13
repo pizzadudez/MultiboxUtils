@@ -64,6 +64,7 @@ function MUtil:Initialise()
 	team = addon.team
 
 	MUtil:UpdateFocusMacro()
+	--test
 end
 
 -- Sends Invite to character / group of characters
