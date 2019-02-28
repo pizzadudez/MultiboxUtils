@@ -12,12 +12,12 @@ local focusMacro, mountTargetMacro = '!focus', '!mount'
 local frame, events = CreateFrame("FRAME"), {}
 
 -------------------------------------------------------------------------------
-function events:ADDON_LOADED(name)
+--[[function events:ADDON_LOADED(name)
 	if name == 'MultiboxUtils' then
 		MultiboxUtilsDB = MultiboxUtilsDB or defaultDB
 	end
 end
-
+--]]
 function events:PLAYER_LOGIN()
     MUtil:Initialise()
 end
