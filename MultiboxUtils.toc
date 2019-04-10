@@ -9,3 +9,5 @@ invite.lua
 team.lua
 MultiboxUtils.lua
 
+serverhop_keymap.lua
+
